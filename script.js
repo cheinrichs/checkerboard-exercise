@@ -20,6 +20,11 @@ for( var i = 0; i < 63; i++ ){
   document.body.appendChild(div1);
 }
 
+var audio = document.createElement("audio");
+audio.src = "2.mp3";
+document.body.appendChild(audio);
+audio.play();
+
 var spaces = document.getElementsByClassName("checkerSpace");
 
 setInterval(
