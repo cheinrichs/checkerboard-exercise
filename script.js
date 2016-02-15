@@ -19,5 +19,3 @@ for( var i = 0; i < 63; i++ ){
   div1.margin = "-10px 0px 0px -10px";
   document.body.appendChild(div1);
 }
-
-var spaces = document.getElementsByClassName("checkerSpace");
